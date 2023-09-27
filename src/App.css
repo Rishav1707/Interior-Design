@@ -1,3 +1,13 @@
+:root {
+  --button-bg-color: #000;
+  --button-text-color: #fff;
+  --extra-div-bg-color: #d0d0d0;
+  --extra-font-color: #7b7b7b;
+  --hover-font-color: #ff6230;
+  --navbar-font-color: #373737;
+  --button-border-radius: 50%;
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -8,13 +18,14 @@ html,
 body {
   width: 100%;
   height: 100%;
-  background-color: #fff;
+  background-color: #dedede;
   color: #000;
-  font-family: 'Noto Sans Indic Siyaq Numbers', sans-serif;
+  font-family: sans-serif;
   scroll-behavior: smooth;
 }
 
 #root {
   width: 100%;
   height: 100%;
+  padding: 1rem;
 }

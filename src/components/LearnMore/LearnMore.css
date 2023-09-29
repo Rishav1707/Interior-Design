@@ -1,0 +1,235 @@
+.LearnMore {
+    width: 100%;
+    position: relative;
+    display: flex;
+}
+
+.LearnMore-heading p {
+    font-size: 1.6rem;
+    padding: 1rem;
+    color: var(--extra-font-color);
+}
+
+.LearnMore-heading p span {
+    color: #000
+}
+
+.LearnExtra {
+    width: 40%;
+    background-color: var(--extra-div-bg-color);
+    height: 18.5rem;
+}
+
+.LearnVideo {
+    width: 100%;
+    position: absolute;
+    padding: 0 1rem;
+    bottom: 0;
+}
+
+.PlayButton {
+    width: 100%;
+    position: absolute;
+    text-align: center;
+    bottom: 4.5rem;
+}
+
+.PlayButton img {
+    backdrop-filter: blur(8px);
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.LearnMore-paragraph {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    padding: 2rem 1rem;
+}
+
+.LearnMore-paragraph p {
+    font-size: 0.906rem;
+    color: var(--extra-font-color);
+}
+
+.LearnMore-Laptop-Medium-button,
+.LearnMore-Laptop-Medium-para {
+    display: none;
+}
+
+@media only screen and (min-width: 361px) {
+    .LearnVideo video {
+        width: 100%;
+    }
+
+    .PlayButton {
+        bottom: 5rem;
+    }
+
+    .LearnMore-paragraph p {
+        font-size: 1rem;
+    }
+}
+
+@media only screen and (min-width: 391px) {
+    .LearnMore-heading p {
+        font-size: 2rem;
+        padding: 2rem;
+    }
+
+    .LearnExtra {
+        height: 34rem;
+    }
+
+    .LearnVideo {
+        padding: 0 2rem;
+    }
+
+    .LearnVideo video {
+        width: 100%;
+    }
+
+    .LearnMore-paragraph {
+        padding: 2rem;
+    }
+
+    .LearnMore-paragraph p {
+        font-size: 1.3rem;
+    }
+
+    .PlayButton {
+        bottom: 11rem;
+    }
+
+    .PlayButton img {
+        width: 60px;
+        height: 60px;
+    }
+}
+
+@media only screen and (min-width: 769px) {
+
+    .LearnMore-Laptop-Medium-button,
+    .LearnMore-Laptop-Medium-para {
+        display: block;
+    }
+
+    .LearnMore-paragraph {
+        display: none;
+    }
+
+    .LearnMore {
+        margin-top: 3rem;
+        flex-direction: column;
+    }
+
+    .LearnMore-heading {
+        width: 31%;
+    }
+
+    .LearnMore-heading p {
+        font-size: 1.91rem;
+        padding: 2rem 3rem;
+        padding-right: 0;
+    }
+
+    .LearnMore-Laptop-Medium-para {
+        width: 31%;
+        padding: 3rem;
+        padding-right: 0;
+    }
+
+    .LearnMore-Laptop-Medium-para p {
+        font-size: 0.94rem;
+        color: var(--extra-font-color);
+    }
+
+    .LearnMore-Laptop-Medium-button {
+        width: 100%;
+        position: absolute;
+        left: 3rem;
+        bottom: 6rem;
+    }
+
+    .LearnMore-Laptop-Medium-button button {
+        width: 16%;
+    }
+
+    .LearnExtra {
+        width: 31%;
+        height: 16rem;
+    }
+
+    .LearnVideo {
+        padding: 2rem 3rem;
+        width: 67%;
+        top: 0;
+        right: 0;
+    }
+
+    .PlayButton {
+        width: 67%;
+        right: 0;
+        bottom: 20rem;
+    }
+
+    .PlayButton img {
+        width: 80px;
+        height: 80px;
+    }
+}
+
+@media only screen and (min-width: 1025px) {
+
+    .LearnMore {
+        justify-content: center;
+        height: 100vh;
+        gap: 2rem;
+    }
+
+    .LearnExtra {
+        width: 27%;
+    }
+
+    .LearnMore-heading {
+        width: 27%;
+    }
+
+    .LearnMore-Laptop-Medium-button {
+        width: 85%;
+        left: 4rem;
+        bottom: 8rem;
+    }
+
+    .LearnMore-Laptop-Medium-button button {
+        font-size: 1.1rem;
+        padding: 0.8rem 0.5rem;
+    }
+
+    .LearnMore-heading p {
+        padding: 3rem 4rem;
+        padding-right: 0;
+        padding-bottom: 0;
+        font-size: 2.195rem;
+    }
+
+    .LearnMore-Laptop-Medium-para {
+        width: 27%;
+        padding-left: 4rem;
+    }
+
+    .LearnMore-Laptop-Medium-para p {
+        font-size: 1.1rem;
+        line-height: 1.5rem;
+    }
+
+    .LearnVideo {
+        width: 70%;
+        padding: 4rem;
+    }
+
+    .PlayButton {
+        width: 70%;
+        bottom: 21rem;
+    }
+}

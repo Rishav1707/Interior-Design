@@ -1,0 +1,168 @@
+.Homey-Container {
+    width: 100%;
+    padding: 2.5rem 1rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    position: relative;
+}
+
+.Homey-heading p {
+    font-size: 1.6rem;
+    color: var(--extra-font-color);
+}
+
+.Homey-heading p span {
+    color: #000;
+}
+
+.Homey-Image {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1rem;
+}
+
+.Homey-paragraph {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.Homey-paragraph p {
+    font-size: 0.906rem;
+    color: var(--extra-font-color);
+}
+
+.Homey-heading p:nth-child(2) {
+    display: none;
+}
+
+.Homey-Laptop-Medium-button {
+    display: none;
+}
+
+@media only screen and (min-width: 361px) {
+    .Homey-Image img {
+        width: 100%;
+        height: 171px;
+    }
+
+    .Homey-paragraph p {
+        font-size: 1rem;
+    }
+}
+
+@media only screen and (min-width: 391px) {
+    .Homey-Container {
+        padding: 4rem 2rem;
+    }
+
+    .Homey-Image {
+        grid-template-columns: repeat(4, 1fr);
+    }
+
+    .Homey-Image img {
+        width: 100%;
+        height: 300px;
+    }
+
+    .Homey-heading p {
+        font-size: 2rem;
+    }
+
+    .Homey-paragraph p {
+        font-size: 1.3rem;
+    }
+}
+
+@media only screen and (min-width: 769px) {
+    .Homey-heading p:nth-child(2) {
+        display: block;
+    }
+
+    .Homey-Container {
+        padding: 5rem 3rem;
+        gap: 4.5rem;
+    }
+
+    .Homey-Image img {
+        width: 100%;
+        height: 350px;
+    }
+
+    .Homey-heading {
+        display: flex;
+        gap: 13.4rem;
+        align-items: center;
+    }
+
+    .Homey-heading p {
+        font-size: 1.91rem;
+    }
+
+    .Homey-heading p:nth-child(1) {
+        width: 70rem;
+    }
+
+    .Homey-heading p:nth-child(2) {
+        font-size: 0.94rem;
+        text-align: end;
+    }
+
+    .Homey-paragraph {
+        display: none;
+    }
+
+    .Homey-Laptop-Medium-button {
+        display: block;
+    }
+
+    .Homey-Laptop-Medium-button button {
+        background-color: transparent;
+        border: 1px solid #fff;
+        font-size: 1.1rem;
+        padding: 0.8rem 0.5rem;
+        backdrop-filter: blur(8px);
+    }
+
+    .Homey-Laptop-Medium-button {
+        width: 33%;
+        position: absolute;
+        bottom: 13rem;
+        left: 53.5%;
+    }
+}
+
+@media only screen and (min-width: 1025px) {
+    .Homey-Container {
+        height: 100vh;
+        justify-content: center;
+    }
+
+    .Homey-Container {
+        padding: 5rem 4rem;
+        padding-bottom: 0;
+        gap: 5rem;
+    }
+
+    .Homey-Image img {
+        height: 400px;
+    }
+
+    .Homey-heading {
+        gap: 25rem;
+    }
+
+    .Homey-heading p {
+        font-size: 2.195rem;
+    }
+
+    .Homey-heading p:nth-child(2) {
+        font-size: 1.1rem;
+    }
+
+    .Homey-Laptop-Medium-button {
+        width: 28%;
+        left: 54.5%;
+    }
+}

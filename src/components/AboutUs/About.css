@@ -1,0 +1,222 @@
+.About {
+    width: 100%;
+    position: relative;
+}
+
+.About-img {
+    position: absolute;
+    left: 1rem;
+}
+
+.About-Text {
+    margin-left: 25%;
+    padding: 2rem 1rem;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    text-align: end;
+    background-color: var(--extra-div-bg-color);
+}
+
+.About-content-container {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.About-content p {
+    color: var(--extra-font-color);
+    font-size: 0.813rem;
+}
+
+.About-content span {
+    color: var(--hover-font-color);
+}
+
+.About-paragraph {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    padding: 2rem 1rem;
+}
+
+.About-paragraph p {
+    text-align: center;
+    color: var(--extra-font-color);
+    font-size: 0.924rem;
+}
+
+.About-paragraph span {
+    color: #000;
+}
+
+.About-Laptop-Medium-button,
+.About-Laptop-Medium-para {
+    display: none;
+}
+
+@media only screen and (min-width: 361px) {
+    .About-img img {
+        width: 190px;
+        height: 190px;
+    }
+
+    .About-Text {
+        padding: 3rem 1rem;
+    }
+
+    .About-paragraph p {
+        font-size: 1rem;
+    }
+}
+
+@media only screen and (min-width: 391px) {
+    .About-img {
+        top: 2rem;
+        left: 2rem;
+    }
+
+    .About-img img {
+        width: 280px;
+        height: 280px;
+    }
+
+    .About-Text {
+        padding: 4rem 2rem;
+    }
+
+    .About-content h3 {
+        font-size: 2rem;
+    }
+
+    .About-content p {
+        font-size: 1rem;
+    }
+
+    .About-paragraph {
+        padding: 2rem;
+    }
+
+    .About-paragraph p {
+        font-size: 1.3rem;
+    }
+}
+
+@media only screen and (min-width: 769px) {
+
+    .About-Laptop-Medium-para {
+        display: block;
+    }
+
+    .About-Text {
+        margin-left: 31%;
+        padding: 5rem 3rem;
+        gap: 3.5rem;
+    }
+
+    .About-content {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .About-content h3 {
+        font-size: 2.25rem;
+    }
+
+    .About-img {
+        top: 5rem;
+        left: 3rem;
+    }
+
+    .About-img img {
+        width: 350px;
+        height: 350px;
+    }
+
+    .About-Laptop-Medium-para {
+        margin-left: 8rem;
+    }
+
+    .About-Laptop-Medium-para p {
+        font-size: 1.61rem;
+        color: var(--extra-font-color);
+        text-align: end;
+    }
+
+    .About-Laptop-Medium-para p span {
+        color: #000;
+    }
+
+    .About-content-container {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: end;
+        gap: 2rem;
+    }
+
+    .About-Laptop-Medium-button {
+        display: flex;
+        justify-content: end;
+    }
+
+    .About-Laptop-Medium-button button {
+        width: 24%;
+    }
+
+    .About-paragraph {
+        display: none;
+    }
+}
+
+@media only screen and (min-width: 1025px) {
+    .About-Text {
+        height: 100vh;
+        margin-left: 27%;
+        padding: 5rem 4rem;
+        justify-content: center;
+        align-items: end;
+    }
+
+    .About-img {
+        top: 8rem;
+        left: 4rem;
+    }
+
+    .About-img img {
+        width: 410px;
+        height: 410px;
+    }
+
+    .About-content-container {
+        gap: 3.5rem;
+    }
+
+    .About-content h3 {
+        font-size: 3.5rem;
+        font-weight: 400;
+    }
+
+    .About-content p {
+        font-size: 1.2rem;
+    }
+
+    .About-Laptop-Medium-para {
+        width: 75%;
+    }
+
+    .About-Laptop-Medium-para p {
+        font-size: 2.209rem;
+        line-height: 3rem;
+    }
+
+    .About-Laptop-Medium-button {
+        width: 80%;
+    }
+
+    .About-Laptop-Medium-button button {
+        font-size: 1.1rem;
+        padding: 0.8rem 0.5rem;
+    }
+}

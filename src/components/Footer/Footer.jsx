@@ -16,10 +16,10 @@ const Footer = () => {
         </div>
         <div className="nav-objects">
           <h4 className="objects-title">Useful Links</h4>
-          <p className="objects">About</p>
-          <p className="objects">Product</p>
-          <p className="objects">Project</p>
-          <p className="objects">Services</p>
+          <a href="#home"><p className="objects">About</p></a>
+          <a href="#product"><p className="objects">Product</p></a>
+          <a href="#project"><p className="objects">Project</p></a>
+          <a href="#services"><p className="objects">Services</p></a>
         </div>
         <div className="contact-form">
           <label htmlFor="" className="form-title">

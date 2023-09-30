@@ -89,6 +89,7 @@
   }
 
   .nav-content {
+    
     display: flex;
     flex-direction: row;
     color: var(--navbar-font-color);
@@ -96,7 +97,6 @@
 
   .nav-content-title:hover {
     cursor: pointer;
-    text-decoration: underline;
   }
 
   .extra-div {

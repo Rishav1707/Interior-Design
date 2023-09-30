@@ -4,7 +4,7 @@ import "./NavBar.css";
 const NavBar = () => {
   const [colorChange, setcolorChange] = useState(false);
   const changeNavbarColor = () => {
-    if (window.scrollY > 0) {
+    if (window.scrollY >0) {
       setcolorChange(true);
     } else {
       setcolorChange(false);
@@ -22,8 +22,8 @@ const NavBar = () => {
   };
 
   return (
-    <div id="home" className="nav">
-      <div className="extra-div"></div>
+    <div  className="nav">
+      <div id="home" className="extra-div"></div>
       <div className={colorChange ? "nav-header bg-color" : "nav-header"}>
         <img src="" alt="" />
         <div className={`nav-content ${isOpen ? "show" : "hide"}`}>

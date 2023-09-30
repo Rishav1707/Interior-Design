@@ -5,6 +5,7 @@
   padding: 0rem 1rem;
   position: relative;
 }
+
 .col-img {
   display: flex;
   flex-direction: column;
@@ -14,6 +15,7 @@
   left: 1rem;
   top: -2rem;
 }
+
 .main-img-div {
   position: absolute;
   padding: 0rem 1rem;
@@ -22,12 +24,14 @@
   height: 20rem;
   right: 0;
 }
+
 .hero-content {
   display: flex;
   flex-direction: column;
   justify-content: start;
   gap: 1.75rem;
 }
+
 .sub-hero {
   margin-top: 20rem;
   display: flex;
@@ -35,32 +39,39 @@
   justify-content: start;
   gap: 2.1rem;
 }
+
 .content {
   display: flex;
   flex-direction: column;
   justify-content: start;
   gap: 1.5rem;
 }
+
 .hero-title {
   font-size: 3.5rem;
   font-weight: 200;
   line-height: 2.5rem;
 }
+
 .hero-description {
   color: var(--navbar-font-color);
 }
+
 .btns {
   display: flex;
   gap: 1rem;
 }
+
 .btn {
   display: flex;
   gap: 1rem;
   width: 50%;
 }
+
 .btn-1 {
   border: none;
 }
+
 .btn-2 {
   border: 2px solid var(--extra-font-color);
   background-color: #dedede;
@@ -73,132 +84,165 @@
     height: 290px;
   }
 }
+
 @media only screen and (min-width: 391px) {
-  .hero-comp{
+  .hero-comp {
+    margin-top: 5rem;
     height: 33rem;
   }
+
   .main-img {
     width: 320px;
     height: 380px;
   }
-  .main-img-div{
+
+  .main-img-div {
     top: 5rem;
   }
+
   .col-img {
     flex-direction: row;
     gap: 1.5rem;
     top: 24rem;
   }
-  .sub-hero{
-     margin-top: 0;
-     gap: 3rem;
+
+  .sub-hero {
+    margin-top: 0;
+    gap: 3rem;
   }
-  .content{
+
+  .content {
     flex-direction: column-reverse;
     width: 50%;
     gap: 2rem;
 
   }
-  .extra-letters{
+
+  .extra-letters {
     position: absolute;
     left: 16rem;
   }
-  .hero-title{
+
+  .hero-title {
     font-size: 7rem;
     line-height: 5rem;
   }
-  .hero-description{
+
+  .hero-description {
     width: 70%;
     font-size: 1.2rem;
   }
-  .btn-1,.btn-2{
+
+  .btn-1,
+  .btn-2 {
     width: 100%;
-    }
-    .Subscribe{
-      width: 100%;
-    }
-}
-@media only screen and (min-width: 769px){
- .hero-comp{
-  height: 43rem;
-  padding: 0rem 2rem;
- }
-  .main-img-div{
-  top: 7rem;
-  padding-right: 4rem;
- }
+  }
 
- .col-images{
-  width: 120px;
-  height: 120px;
- }
-  .main-img{
-  width: 350px;
-  height: 500px;
- }
- .hero-title{
-  font-size: 10rem;
-  line-height: 6rem;
- }
- .extra-letters{
-  left: 22.5rem;
- }
- .col-img{
-  top: 32rem;
- }
- .sub-hero{
-  gap: 4rem;
- }
- .hero-description{
-  font-size:1.8rem; 
- }
- .btns{
-  width: 75%;
- }
+  .Subscribe {
+    width: 100%;
+  }
 }
 
-@media only screen and (min-width: 1025px){
-  .hero-comp{
-   height: 57rem;
-   margin-top: 2rem;
-   padding: 0rem 4rem;
+@media only screen and (min-width: 769px) {
+  .hero-comp {
+    margin-top: 7rem;
+    height: 43rem;
+    padding: 0rem 2rem;
   }
-   .main-img-div{
-   top: 10rem;
-   padding-right: 13rem;
+
+  .main-img-div {
+    top: 7rem;
+    padding-right: 4rem;
   }
- 
-  .col-images{
-   width: 180px;
-   height: 180px;
+
+  .col-images {
+    width: 120px;
+    height: 120px;
   }
-   .main-img{
-   width: 550px;
-   height: 650px;
+
+  .main-img {
+    width: 350px;
+    height: 500px;
   }
-  .hero-title{
-   font-size: 13rem;
-   line-height: 8.5rem;
+
+  .hero-title {
+    font-size: 10rem;
+    line-height: 6rem;
   }
-  .extra-letters{
-   left: 32.5rem;
+
+  .extra-letters {
+    left: 22.5rem;
   }
-  .content{
+
+  .col-img {
+    top: 32rem;
+  }
+
+  .sub-hero {
+    gap: 4rem;
+  }
+
+  .hero-description {
+    font-size: 1.8rem;
+  }
+
+  .btns {
+    width: 75%;
+  }
+}
+
+@media only screen and (min-width: 1025px) {
+  .hero-comp {
+    height: 57rem;
+    margin-top: 6.5rem;
+    padding: 0rem 4rem;
+  }
+
+  .main-img-div {
+    top: 10rem;
+    padding-right: 13rem;
+  }
+
+  .col-images {
+    width: 180px;
+    height: 180px;
+  }
+
+  .main-img {
+    width: 550px;
+    height: 650px;
+  }
+
+  .hero-title {
+    font-size: 13rem;
+    line-height: 8.5rem;
+  }
+
+  .extra-letters {
+    left: 32.5rem;
+  }
+
+  .content {
     gap: 3rem;
   }
-  .col-img{
-   top: 39rem;
-   left: 4rem;
+
+  .col-img {
+    top: 39rem;
+    left: 4rem;
   }
-  .sub-hero{
-   gap: 6rem;
+
+  .sub-hero {
+    gap: 6rem;
   }
-  .hero-description{
-   font-size:1.5rem; 
-   width: 45%;
+
+  .hero-description {
+    font-size: 1.5rem;
+    width: 45%;
   }
-  .btn-1,.btn-2{
-   font-size: 1.1rem;
-   padding: 0.8rem 0.5rem;
+
+  .btn-1,
+  .btn-2 {
+    font-size: 1.1rem;
+    padding: 0.8rem 0.5rem;
   }
- }
+}

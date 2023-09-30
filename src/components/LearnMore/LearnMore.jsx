@@ -12,7 +12,7 @@ const LearnMore = () => {
   };
   return (
     <>
-      <div className="LearnMore">
+      <div id="product" className="LearnMore">
         <div className="LearnMore-heading">
           <p>
             Capture <span>the spirit of spring </span>in your home

@@ -1,4 +1,5 @@
 .nav-header {
+  position: relative;
   padding: 2rem;
   width: 100%;
   display: flex;
@@ -20,20 +21,49 @@
   width: 34%;
 }
 
-.hide {
-  display: none;
-  color: var(--navbar-font-color);
-}
+
+
 
 .show {
+  position: absolute;
+  top: 4rem;
+  left: 0;
+  width: 100%;
   display: flex;
   flex-direction: column;
   gap: 2rem;
   color: var(--navbar-font-color);
+  align-items: center;
+  z-index: 5;
+  background-color: #dedede;
+  padding: 2rem;
+  backdrop-filter: blur(8px);
+  filter: opacity(0.9);
+  animation: show 0.5s ease-in-out;
+}
+
+@keyframes show {
+  0% {
+    transform: translateY(-100%);
+  }
+
+  100% {
+    transform: translateY(0%);
+  }
+}
+
+.hide {
+  color: var(--navbar-font-color);
+  display: none;
 }
 
 .nav-content-title {
   font-weight: 100;
+}
+
+.nav-content a {
+  text-decoration: none;
+  color: var(--navbar-font-color);
 }
 
 .ham-burger {
@@ -67,8 +97,16 @@
 }
 
 @media only screen and (min-width: 391px) {
+  .nav-header {
+    justify-content: center;
+  }
+
   .nav-content {
     gap: 3rem;
+  }
+
+  .ham-burger {
+    display: none;
   }
 }
 
@@ -83,16 +121,9 @@
     z-index: 10;
   }
 
-  .nav-content a {
-    text-decoration: none;
-    color: var(--navbar-font-color);
-  }
-
   .nav-content {
-    
     display: flex;
     flex-direction: row;
-    color: var(--navbar-font-color);
   }
 
   .nav-content-title:hover {

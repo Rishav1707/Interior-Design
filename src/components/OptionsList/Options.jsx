@@ -3,7 +3,7 @@ import Arrow from "../../assets/button-arrow-white.png";
 
 const Options = () => {
   return (
-    <div className="Options-List">
+    <div id="services" className="Options-List">
       <ul className="List">
         <li>
           Home redesign

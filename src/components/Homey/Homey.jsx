@@ -8,7 +8,7 @@ import ButtonArrowWhite from "../../assets/button-arrow-white.png";
 
 const Homey = () => {
   return (
-    <div className="Homey-Container">
+    <div id="project" className="Homey-Container">
       <div className="Homey-heading">
         <p>
           Decorate <span>every inch of the house </span>to make it feel homey

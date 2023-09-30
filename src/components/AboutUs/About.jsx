@@ -4,7 +4,7 @@ import ButtonArrow from "../../assets/button-arrow.png";
 
 const About = () => {
   return (
-    <div className="About">
+    <div id="about" className="About">
       <div className="About-img">
         <img src={AboutImg} width={170} height={170} alt="" />
       </div>

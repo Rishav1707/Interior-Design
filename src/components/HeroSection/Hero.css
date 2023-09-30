@@ -111,10 +111,10 @@
     width: 70%;
     font-size: 1.2rem;
   }
-  .btn-1{
+  .btn-1,.btn-2{
     width: 100%;
     }
-    .btn-2{
+    .Subscribe{
       width: 100%;
     }
 }
@@ -155,18 +155,12 @@
  .btns{
   width: 75%;
  }
- .btn-1{
-  width: 100%;
-  }
-  .btn-2{
-    width: 100%;
-  }
 }
 
 @media only screen and (min-width: 1025px){
   .hero-comp{
    height: 57rem;
-   margin-top: 5rem;
+   margin-top: 2rem;
    padding: 0rem 4rem;
   }
    .main-img-div{
@@ -183,7 +177,7 @@
    height: 650px;
   }
   .hero-title{
-   font-size: 14rem;
+   font-size: 13rem;
    line-height: 8.5rem;
   }
   .extra-letters{
@@ -203,17 +197,8 @@
    font-size:1.5rem; 
    width: 45%;
   }
-  .btns{
-   width: 75%;
-  }
-  .btn-1{
-  width: 100%;
+  .btn-1,.btn-2{
    font-size: 1.1rem;
    padding: 0.8rem 0.5rem;
-  }
-  .btn-2{
-    width: 100%;
-    font-size: 1.1rem;
-    padding: 0.8rem 0.5rem;
   }
  }

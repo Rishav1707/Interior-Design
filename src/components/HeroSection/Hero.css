@@ -60,13 +60,11 @@
 }
 .btn-1 {
   border: none;
-  font-size: 12px;
 }
 .btn-2 {
   border: 2px solid var(--extra-font-color);
   background-color: #dedede;
   color: black;
-  font-size: 12px;
 }
 
 @media only screen and (min-width: 361px) {
@@ -105,9 +103,6 @@
     position: absolute;
     left: 16rem;
   }
-  .btns{
-    
-  }
   .hero-title{
     font-size: 7rem;
     line-height: 5rem;
@@ -116,6 +111,12 @@
     width: 70%;
     font-size: 1.2rem;
   }
+  .btn-1{
+    width: 100%;
+    }
+    .btn-2{
+      width: 100%;
+    }
 }
 @media only screen and (min-width: 769px){
  .hero-comp{
@@ -155,11 +156,11 @@
   width: 75%;
  }
  .btn-1{
-  font-size: 1.1rem;
- }
- .btn-2{
-  font-size: 1.1rem;
- }
+  width: 100%;
+  }
+  .btn-2{
+    width: 100%;
+  }
 }
 
 @media only screen and (min-width: 1025px){
@@ -206,11 +207,13 @@
    width: 75%;
   }
   .btn-1{
-   font-size: 1.6rem;
-   padding: 1rem;
+  width: 100%;
+   font-size: 1.1rem;
+   padding: 0.8rem 0.5rem;
   }
   .btn-2{
-    font-size: 1.6rem;
-    padding: 1rem;
+    width: 100%;
+    font-size: 1.1rem;
+    padding: 0.8rem 0.5rem;
   }
  }

@@ -72,6 +72,9 @@
 }
 
 @media only screen and (min-width: 391px) {
+    .LearnMore{
+        padding-top: 3.2rem;
+    }
     .LearnMore-heading p {
         font-size: 2rem;
         padding: 2rem;
@@ -161,7 +164,7 @@
     }
 
     .LearnVideo {
-        padding: 2rem 3rem;
+        padding: 4rem 3rem;
         width: 67%;
         top: 0;
         right: 0;
@@ -230,6 +233,6 @@
 
     .PlayButton {
         width: 70%;
-        bottom: 21rem;
+        bottom: 22.5rem;
     }
 }

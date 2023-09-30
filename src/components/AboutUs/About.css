@@ -72,8 +72,11 @@
 }
 
 @media only screen and (min-width: 391px) {
+    .About{
+        padding-top: 5rem;
+    }
     .About-img {
-        top: 2rem;
+        top: 7.5rem;
         left: 2rem;
     }
 

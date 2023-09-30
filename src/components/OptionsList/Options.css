@@ -1,0 +1,62 @@
+.Options-List {
+    width: 100%;
+}
+
+.List li {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 2.5rem 1rem;
+    font-size: 1.2rem;
+    border-bottom: 1px solid #c2c2c2;
+    letter-spacing: 1px;
+    color: var(--extra-font-color);
+}
+
+.List li img {
+    background-color: var(--hover-font-color);
+    border-radius: 2rem;
+    padding: 0rem 0.9rem;
+    width: 3.5rem;
+}
+
+.List li:hover {
+    background-color: #000;
+    color: var(--hover-font-color);
+    cursor: pointer;
+}
+
+@media only screen and (min-width: 391px) {
+    .List li {
+        padding: 2.5rem 2rem;
+        font-size: 2rem;
+    }
+}
+
+@media only screen and (min-width: 769px) {
+    .Options-List {
+        margin-top: 3rem;
+    }
+
+    .List li {
+        padding: 2.5rem 3rem;
+        font-size: 2.8rem;
+    }
+
+    .List li img {
+        width: 4.5rem;
+    }
+}
+
+@media only screen and (min-width: 1025px) {
+    .List li {
+        padding: 4rem;
+        font-size: 3.6rem;
+        font-weight: 400;
+    }
+
+    .List li img {
+        padding: 0.15rem 1rem;
+        width: 4rem;
+    }
+}

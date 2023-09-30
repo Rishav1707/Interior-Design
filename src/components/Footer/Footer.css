@@ -14,6 +14,10 @@
     gap: 2rem;
  
 }
+.nav-objects a{
+  color: var(--extra-font-color);
+  text-decoration: none;
+}
 .img-icons-comp img:nth-child(1){
   display: none;
 }
@@ -45,7 +49,6 @@
     letter-spacing: 1px;
 }
 .objects:hover{
-    text-decoration: underline;
     cursor: pointer;
     color: var(--extra-font-color);
 }
@@ -211,7 +214,7 @@
         display: block;
       }
       .form-title{
-        font-size: 2.5rem;
+        font-size: 1.8rem;
         letter-spacing: 1px;
       }
       .social-icons {
@@ -224,5 +227,8 @@
       }
       .Follow-title{
         margin-right: 3rem;
+      }
+      .Subscribe{
+        font-size: 1.1rem;
       }
   }

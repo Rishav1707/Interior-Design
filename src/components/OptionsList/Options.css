@@ -1,5 +1,6 @@
 .Options-List {
     width: 100%;
+    
 }
 
 .List li {
@@ -36,6 +37,7 @@
 @media only screen and (min-width: 769px) {
     .Options-List {
         margin-top: 3rem;
+        padding-top: 3rem;
     }
 
     .List li {

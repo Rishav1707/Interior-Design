@@ -1,17 +1,17 @@
 import React from "react";
 import "./Footer.css";
-
 import tw from "../../assets/tw.svg";
 import insta from "../../assets/insta.svg";
 import fb from "../../assets/fb.svg";
 import fi from "../../assets/hero2.jpg";
+import fi1 from "../../assets/homey-img4.jpg"
 
 const Footer = () => {
   return (
     <div className="footer-comp">
       <div className="footer-sub-comp">
         <div className="img-icons-comp">
-          <img className="footer-image" src={fi} width={300} height={300} />
+          <img className="footer-image" src={fi1} width={300} height={300} />
           <img className="footer-image" src={fi} width={300} height={300} />
         </div>
         <div className="nav-objects">

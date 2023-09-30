@@ -1,9 +1,14 @@
 import "./App.css";
+import Footer from "./components/Footer/Footer";
+import Hero from "./components/HeroSection/Hero";
+import NavBar from "./components/NavBar/NavBar";
 
 const App = () => {
   return (
     <>
-      <h1>We are working on Interior Design project</h1>
+      <NavBar/>
+      <Hero/>
+      <Footer/>
     </>
   );
 };

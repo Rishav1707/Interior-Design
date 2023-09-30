@@ -1,0 +1,222 @@
+.footer-comp{
+    background-color: var(--extra-div-bg-color);
+    display: flex;
+    padding: 2rem;
+    flex-direction: column;
+    gap: 1rem;
+    color: var(--extra-font-color);
+    margin-top: 2rem;
+    position: relative;
+}
+.footer-sub-comp{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+ 
+}
+.img-icons-comp img:nth-child(2){
+  display: none;
+}
+.nav-objects{
+ display: flex;
+ flex-direction: column;
+ align-items: start;
+ gap: 1rem;
+ font-size: 1.2rem;
+ color: var(--extra-font-color);
+}
+.img-icons-comp{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 1rem;
+}
+.footer-image{
+  width: 100%;
+}
+.social-icons{
+    display: flex;
+    gap: 1rem;
+    justify-content: center;
+}
+.objects{
+    text-decoration: none;
+    letter-spacing: 1px;
+}
+.objects:hover{
+    text-decoration: underline;
+    cursor: pointer;
+    color: var(--extra-font-color);
+}
+.contact-form{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+
+}
+.input-box{
+ padding: 1rem;
+ border-radius: 0.5rem;
+ outline: none;
+ border: none;
+ background-color: #dedede;
+ color: #000;
+}
+.Subscribe{
+    padding: 1rem;
+    border: none;
+    outline: none;
+}
+.social-icons{
+  justify-content: start;
+}
+.Follow{
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+}
+.Copyright-div{
+    font-size: 0.85rem;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    padding: 1rem;
+  }
+ 
+@media screen and (min-width: 391px){
+  .footer-comp {
+    flex-direction: column;
+  }
+
+  .footer-sub-comp{ 
+    flex-direction: row;
+    gap: 5rem;
+  }
+
+  .nav-objects {
+    font-size: 1.2rem;
+    justify-content: center;
+  }
+  .contact-form{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    justify-content: center;
+  }
+
+  .img-icons-comp {
+    width: 200px;
+  }
+  .footer-image{
+    width: 100%;
+    height: 90%;
+  }
+
+  .social-icons { 
+    justify-content: start;
+  }
+}
+  
+@media screen and (min-width: 769px) {
+    .footer-comp {
+        flex-direction: column;
+      }
+    
+      .footer-sub-comp{ 
+        flex-direction: row;
+      }
+    
+      .nav-objects {
+        font-size: 1.2rem;
+        justify-content: center;
+      }
+      .objects-title{
+        font-size: 1.8rem;
+      }
+      .objects{
+        font-size: 1.8rem;
+      }
+      .contact-form{
+        display: flex;
+        flex-direction: column;
+        gap: 1rem;
+        justify-content: center;
+      }
+    
+      .img-icons-comp {
+        width: 300px;
+      }
+      .footer-image{
+        width: 100%;
+        height: 90%;
+      }
+       .Follow-title{
+        font-size: 1.8rem;
+       }
+       .Follow{
+        gap: 1.3rem;
+       }
+      .social-icons {
+        justify-content: start;
+      }
+      .icons{
+        width: 60px;
+      }
+      .form-title{
+        font-size: 1.8rem;
+      }
+      .input-box{
+        width: 20rem;
+        font-size: 1.3rem;
+      }
+      button{
+        font-size: 1.3rem;
+      }
+      .Copyright-div{
+        font-size: 1.3rem;
+      }
+
+  }
+  @media screen and (min-width: 1025px){
+    .footer-comp {
+        flex-direction: column;
+      }
+      .footer-sub-comp{ 
+        flex-direction: row;
+        gap: 16rem;
+      }
+      .footer-image{
+          width: 230px;
+          height: 230px;
+      }
+      .img-icons-comp img:nth-child(2){
+        display:block;
+        position: absolute;
+        top: 10rem;
+        left: 10rem;
+        width: 230px;
+        height: 230px;
+      }
+       .objects{
+        font-size: 1.8rem;
+       }
+      .img-icons-comp {
+        gap: 0.5rem;
+      }
+      .form-title{
+        font-size: 2.5rem;
+      }
+      .social-icons {
+        gap: 0.5rem; 
+      }
+      .Follow{
+        margin-top: 1rem;
+        align-items: end;
+        margin-right: 17rem;
+      }
+      .Follow-title{
+        margin-right: 3rem;
+      }
+  }
